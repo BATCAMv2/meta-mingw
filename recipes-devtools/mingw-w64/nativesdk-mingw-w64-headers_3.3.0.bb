@@ -7,8 +7,8 @@ COMPATIBLE_HOST = ".*-mingw.*"
 SRC_URI = "${SOURCEFORGE_MIRROR}/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v${PV}.tar.bz2 \
            file://epsilon.patch"
 
-SRC_URI[md5sum] = "df0e7657f46cbd59ed9cbe2a50c66e15"
-SRC_URI[sha256sum] = "ece7a7e7e1ab5e25d5ce469f8e4de7223696146fffa71c16e2a9b017d0e017d2"
+SRC_URI[md5sum] = "3c56901ca7be60beba6d58caff168240"
+SRC_URI[sha256sum] = "44764daa65f9adf562b0456e7b681c73c074dc6d1d3ae210f6000af0b641fcef"
 
 S = "${WORKDIR}/mingw-w64-v${PV}/mingw-w64-headers"
 B = "${WORKDIR}/build-${TARGET_SYS}"
