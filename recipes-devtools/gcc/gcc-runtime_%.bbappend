@@ -6,4 +6,4 @@ FILES_libssp_append_mingw32 = " ${bindir}/libssp*.dll"
 RUNTIMETARGET_remove_mingw32 = "libatomic libgomp"
 RUNTIMETARGET_remove_mingw32 = "libitm"
 
-DEPENDS_append_mingw32 = " nativesdk-mingw-w64-winpthreads"
+DEPENDS_append_mingw32 = " pthreads-win32"
